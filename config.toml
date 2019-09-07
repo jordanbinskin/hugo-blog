@@ -1,0 +1,27 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Jordan-Binskin"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+[[menu.feed]]
+    name = "My-feed"
+    url = "/index.xml"
+
+[params]
+    description = "The personal portfolio of Jordan Binskin"
+    footer = "[LinkedIn](https://www.linkedin.com/in/jordanbinskin/) | [Github](https://github.com/jordanbinskin)"
+    custom_css = ["css/theme-override.css"]
