@@ -43,4 +43,20 @@ Some general useful OO terms:
 const everything = Object.create();
 const livingBeing = Object.create(everything);
 const adam = Object.create(livingBeing);
+
+everything.name = 'everything';
+livingBeing.name = 'living being';
+adam.name = 'adam';
+
+everything.greet = () => 'i am everything';
+
+// Prototypal tree of "Adam"
+// { adam } <- { livingBeing } <- { everything }
+
+adam.name
+// 'adam'
+livingBeing.name
+// 'living being'
+adam.greeting()
+// 'i am everything'
 ~~~
