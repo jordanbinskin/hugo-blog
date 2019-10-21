@@ -40,7 +40,7 @@ Some general useful OO terms:
 - ***Generalization:*** An abstraction of a more specific abstraction.
 
 ~~~javascript
-const everything = Object.create();
+const everything = {};
 const livingBeing = Object.create(everything);
 const adam = Object.create(livingBeing);
 
