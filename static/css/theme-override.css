@@ -1,5 +1,13 @@
 footer { font-size: 90%; font-family: monospace; }
 
+h1 {
+  line-height: 1;
+}
+
+.article-meta {
+  background-color: #A895DD;
+}
+
 @media screen and (max-width: 847px) {
   body {
     margin: 0 20px;
