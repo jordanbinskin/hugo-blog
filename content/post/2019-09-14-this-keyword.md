@@ -9,7 +9,7 @@ tags:
   - javascript
 ---
 
-# Event Delegation
+# What is the value of 'this'
 
 'this' is a keyword in JavaScript, which returns a reference to an object or undefined. It is implemented in many
 programming languages. However its behaviour in JavaScript varies compared to other languages, mainly where 'this'
