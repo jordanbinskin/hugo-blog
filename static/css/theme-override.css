@@ -1,1 +1,7 @@
 footer { font-size: 90%; font-family: monospace; }
+
+@media screen and (max-width: 847px) {
+  body {
+    margin: 0 20px;
+  }
+}
