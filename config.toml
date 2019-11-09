@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Jordan-Binskin"
+title = "Jordan Binskin"
 theme = "hugo-classic"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]

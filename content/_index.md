@@ -10,15 +10,14 @@ title: Home
 ### About me
 
 Hi! This is the personal blog of Jordan Binskin - all opinions my own. 
-I'm interested in **development**. 
 
-I appreciate this minimal theme, as it is nostalgic to me of a time of more simple web, without bootstrap and all the polish.
+I'm a front-end web developer by trade, sprinkle in a bit of node. I also hobby in game dev.
 
 ~~~javascript
-const jordan = () => console.log('hello')
+const jordan = () => null;
 ~~~
 
-I intend to use this platform to share learnings, and link to any of my projects I see worth sharing.
+I'll use this blog to share articles or links to any interesting projects of mine. If you feel anything on this site is not factual please raise a PR, my blog is hosted on github.com.
 
 <hr/>
 
