@@ -22,6 +22,6 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = "The personal portfolio of Jordan Binskin"
+    description = "The personal blog of Jordan Binskin, all opinions my own."
     footer = "[LinkedIn](https://www.linkedin.com/in/jordanbinskin/) | [Github](https://github.com/jordanbinskin)"
     custom_css = ["css/theme-override.css"]
