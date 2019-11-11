@@ -18,7 +18,7 @@ In JavaScript there is more than one way to refer to an 'nothing' value. First, 
 ~~~javascript
   var thing;
 
-  console.log(thing);
+  console.log(thing); 
   // undefined
 
   console.log(stuff);
@@ -27,8 +27,21 @@ In JavaScript there is more than one way to refer to an 'nothing' value. First, 
 
 I have now declared *thing*, which returns a value of undefined. While *stuff* has not been declared, hence the JavaScript runtime will give us an error message as our variable does not exist (is undeclared).
 
-The next thing you can do after you declare a variable, is assign it a value. You can shortcut declaring a variable and go straight to its assignment. This is highly unrecommended, without much nuance to argue the other way. 
+The next thing you can do after you declare a variable, is assign it a value. You can shortcut declaring a variable and go straight to its assignment. This is highly unrecommended, without much nuance to argue the other way i.e. don't pollute the global scope. Note in strict mode this will throw a ReferenceError.
 
+Finally a null value is a primitive value in JavaScript than can be coerced to false. It is an intentional 'nothing' value. In this sense it is an explicit absence of a value as opposed to undefined. 
+
+~~~javascript
+  var nothing = null;
+  console.log(nothing == undefined)
+  // true
+  console.log(nothing == false)
+  // false
+  console.log(!!nothing == false)
+  // true
+~~~
+
+Some believe (myself included) it is a good habit never to leave variables unassigned (undefined) and be explicit in using null.
 
 
 
