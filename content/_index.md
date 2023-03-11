@@ -11,7 +11,7 @@ title: Home
 
 Hi! This is the personal blog of Jordan Binskin - all opinions my own. 
 
-I'm a front-end web developer by trade, sprinkle in a bit of node. I also hobby in game dev.
+I'm a software engineer by trade.
 
 ~~~javascript
 const jordan = () => null;
