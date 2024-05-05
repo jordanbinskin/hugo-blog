@@ -5,7 +5,7 @@ title: Home
 [<img src="https://media.giphy.com/media/l4q8c29REmCtGKjrq/giphy.gif" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://giphy.com/stickers/pixels-paulrobertson-l4q8c29REmCtGKjrq)
 
 # Jordan Binskin
-## Web Developer
+## Software Engineer
 
 ### About me
 
